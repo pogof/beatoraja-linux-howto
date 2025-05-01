@@ -2,6 +2,9 @@
 (so I don't forget lol)
 
 
+### Please note that this only covers the Linux install. If you want to learn more about Beatoraja or BMS in general I would highly suggest the English guide
+https://github.com/wcko87/beatoraja-english-guide/
+
 NOTE: Since it's Linux, some level of technical knowledge is required, I will only target Ubuntu based system, however I'm sure (and that is where the technical knowledge comes in handy) you can adapt the instructions to your targeted distribution.
 
 
@@ -39,3 +42,6 @@ If you don't wish to use the fix, simply delete ` -Dfile.encoding="UTF-8"` at th
 You may need to switch what version of Java you are actively using with `sudo update-alternatives --config java` and select the `openjdk-17`.
 
 Alternatively if you don't want to switch Java versions, use the command, copy the path to `openjdk-17` and use that instead of `java` on line 14 to set the version.
+
+### Game Should now launch
+After running the start.sh you should see the settings window. Setup your game same way as on Windows, add your BMS/PMS files, IR, ... and launch!
